@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Base List Component should match the existing snapshot 1`] = `
+<RCTScrollView
+  ListFooterComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "id": 1,
+        "testId": "test-component-item-1",
+        "title": "hello",
+      },
+      Object {
+        "id": 2,
+        "testId": "test-component-item-2",
+        "title": "world",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={Object {}}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        numberOfLines={0}
+        style={
+          Object {
+            "color": "#000000DE",
+            "fontSize": 12,
+            "fontWeight": "normal",
+          }
+        }
+        testID="test-component-item-1"
+      >
+        hello
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        numberOfLines={0}
+        style={
+          Object {
+            "color": "#000000DE",
+            "fontSize": 12,
+            "fontWeight": "normal",
+          }
+        }
+        testID="test-component-item-2"
+      >
+        world
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+    />
+  </View>
+</RCTScrollView>
+`;

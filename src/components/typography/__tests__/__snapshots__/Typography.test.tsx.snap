@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Base Typography Component should match the existing snapshot 1`] = `
+<Text
+  numberOfLines={0}
+  style={
+    Object {
+      "color": "#000000DE",
+      "fontSize": 12,
+      "fontWeight": "normal",
+    }
+  }
+/>
+`;

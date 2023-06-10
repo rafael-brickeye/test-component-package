@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic Card Component should match the existing snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 5,
+      "elevation": 1,
+      "minHeight": 68,
+      "paddingLeft": 36,
+      "paddingRight": 16,
+      "paddingVertical": 16,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 1,
+    }
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <Text
+      fontWeight="bold"
+      marginBottom={4}
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#000000DE",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginBottom": 4,
+        }
+      }
+      testID="header-text"
+    >
+      Hello
+    </Text>
+    <Text
+      color="#71727A"
+      numberOfLines={0}
+      style={
+        Object {
+          "color": "#71727A",
+          "fontSize": 12,
+          "fontWeight": "normal",
+        }
+      }
+      testID="body-text"
+    >
+      World
+    </Text>
+  </View>
+</View>
+`;

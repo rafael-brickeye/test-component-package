@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default Card Component should match the existing snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 5,
+      "elevation": 1,
+      "minHeight": 68,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 1,
+    }
+  }
+  testID="parent-component"
+>
+  <View
+    style={Object {}}
+  >
+    <Text
+      numberOfLines={0}
+      style={
+        Object {
+          "color": "#000000DE",
+          "fontSize": 12,
+          "fontWeight": "normal",
+        }
+      }
+      testID="child-component"
+    >
+      Hello World
+    </Text>
+  </View>
+</View>
+`;

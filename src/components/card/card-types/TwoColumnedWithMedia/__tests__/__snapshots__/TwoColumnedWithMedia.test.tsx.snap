@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Two Columned With Media Card Component should match the existing snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 5,
+      "elevation": 1,
+      "minHeight": 68,
+      "paddingHorizontal": 10,
+      "paddingVertical": 16,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 1,
+    }
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <View
+      flexDirection="row"
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../brickeye-core-ui/assets/placeholder/card-placeholder.png",
+          }
+        }
+        style={
+          Object {
+            "height": 44,
+            "width": 40,
+          }
+        }
+      />
+      <View
+        flex={0.65}
+        marginLeft={6}
+        style={
+          Object {
+            "flex": 0.65,
+            "marginLeft": 6,
+          }
+        }
+      >
+        <Text
+          fontWeight="500"
+          marginBottom={6}
+          numberOfLines={0}
+          style={
+            Object {
+              "color": "#000000DE",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "marginBottom": 6,
+            }
+          }
+          testID="middle-header-text"
+        >
+          hello
+        </Text>
+        <Text
+          color="#71727A"
+          fontSize={10}
+          fontWeight="500"
+          numberOfLines={0}
+          style={
+            Object {
+              "color": "#71727A",
+              "fontSize": 10,
+              "fontWeight": "500",
+            }
+          }
+          testID="middle-body-text"
+        >
+          world
+        </Text>
+      </View>
+      <View
+        alignItems="flex-end"
+        flex={0.35}
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 0.35,
+          }
+        }
+      >
+        <Text
+          color="#71727A"
+          fontSize={8}
+          marginBottom={6}
+          numberOfLines={0}
+          style={
+            Object {
+              "color": "#71727A",
+              "fontSize": 8,
+              "fontWeight": "normal",
+              "marginBottom": 6,
+            }
+          }
+          testID="right-header-text"
+        >
+          foo
+        </Text>
+        <Text
+          fontSize={10}
+          fontWeight="500"
+          numberOfLines={0}
+          style={
+            Object {
+              "color": "#000000DE",
+              "fontSize": 10,
+              "fontWeight": "500",
+            }
+          }
+          testID="right-body-text"
+        >
+          bar
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
